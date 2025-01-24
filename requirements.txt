@@ -1,0 +1,37 @@
+# Software Requirements
+1. Python: Version 3.8 or higher.
+2. Nmap: Installed on your system for network scanning.
+
+# Python Libraries
+The following Python libraries are required:
+
+- `python-nmap`: A Python wrapper for the Nmap tool.
+- `requests`: For making API calls to the Vulners API.
+
+#python-nmap requests
+
+To install them, run:
+
+```bash
+pip install -r requirements.txt
+
+#Environment Variables
+You need to set up an environment variable for the Vulners API key to securely authenticate API calls.
+
+#Export your API key:
+export VULNERS_API_KEY="your_api_key_here"
+
+#Operating System Compatibility
+This project is compatible with Linux, macOS, and Windows (with Nmap installed).
+
+#Network Permissions
+Ensure you have the necessary permissions to run Nmap on your network. Some networks may block scans or require admin privileges.
+
+#Optional: Virtual Environment (Recommended)
+For better dependency management, use a Python virtual environment:
+
+python3 -m venv venv
+source venv/bin/activate    # For Linux/macOS
+venv\Scripts\activate       # For Windows
+pip install -r requirements.txt
+
