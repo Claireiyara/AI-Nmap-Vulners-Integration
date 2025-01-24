@@ -1,0 +1,10 @@
+[Port 21] ftp - vsftpd 2.3.4
+- CVE: CVE-2011-0762, Severity: HIGH
+  Description: vsftpd 2.3.4 backdoor vulnerability.
+
+[Port 22] ssh - OpenSSH 4.7p1
+No vulnerabilities found.
+
+[Port 23] telnet - Linux telnetd
+- CVE: CVE-2020-10188, Severity: CRITICAL
+  Description: Vulnerable telnet package allows remote code execution.
