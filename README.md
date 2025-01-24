@@ -16,5 +16,5 @@ This project integrates AI-powered APIs, specifically Vulners, into Vulnerabilit
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/hackeroci/AI-Nmap-Vulners-Integration.git  
+   git clone https://github.com/Claireiyara/AI-Nmap-Vulners-Integration.git  
    cd AI-Nmap-Vulners-Integration  
